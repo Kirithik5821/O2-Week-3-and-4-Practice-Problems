@@ -6,7 +6,6 @@ class Problem2 {
 
         Scanner input = new Scanner(System.in);
 
-        // Taking three numbers
         System.out.print("Enter first number: ");
         int number1 = input.nextInt();
 
@@ -15,8 +14,7 @@ class Problem2 {
 
         System.out.print("Enter third number: ");
         int number3 = input.nextInt();
-
-        // Check smallest
+        
         boolean isSmallest = number1 < number2 && number1 < number3;
 
         System.out.println("Is the first number the smallest? " + isSmallest);
